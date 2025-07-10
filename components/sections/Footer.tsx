@@ -1,4 +1,4 @@
-import { Heart, MapPin, Phone, Mail, Clock } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock } from 'lucide-react'
 
 export default function Footer() {
   return (
@@ -8,33 +8,29 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">Piltri Studio</h3>
             <p className="text-gray-400 mb-4 leading-relaxed">
-              Hacemos que digitalizar tu negocio sea simple y accesible. 
+              Hacemos que digitalizar tu negocio sea simple y accesible.
               Soluciones tecnológicas con trato humano.
             </p>
-            <div className="flex items-center text-gray-400">
-              <Heart className="w-4 h-4 mr-2 text-red-400" />
-              <span>Hecho con amor en El Bolsón, Argentina</span>
-            </div>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Contacto</h4>
             <div className="space-y-3">
               <div className="flex items-center text-gray-400">
                 <Phone className="w-4 h-4 mr-3" />
-                <span>+54 9 11 1234-5678</span>
+                <span>+54 2 944 290047</span>
               </div>
               <div className="flex items-center text-gray-400">
                 <Mail className="w-4 h-4 mr-3" />
-                <span>hola@piltri.studio</span>
+                <span>piltri.studio@gmail.com</span>
               </div>
               <div className="flex items-center text-gray-400">
                 <MapPin className="w-4 h-4 mr-3" />
-                <span>El Bolsón, Argentina</span>
+                <span>El Bolsón, Patagonia Argentina</span>
               </div>
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-4">Horarios</h4>
             <div className="space-y-3">
@@ -42,15 +38,14 @@ export default function Footer() {
                 <Clock className="w-4 h-4 mr-3" />
                 <div>
                   <p>Lun - Vie: 9:00 - 18:00</p>
-                  <p>Sáb: 9:00 - 13:00</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Piltri Studio. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Piltri Studio. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
